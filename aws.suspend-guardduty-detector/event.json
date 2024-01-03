@@ -1,0 +1,37 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "",
+        "arn": "arn:aws:iam:::root",
+        "accountId": "",
+        "accessKeyId": "ASIAVIV7UBSQDJILVZXB",
+        "userName": "",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-02T04:45:14Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-02T06:39:29Z",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "UpdateDetector",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "detectorId": "0ed797cca84f497a8d69258de3cbf2f4",
+        "enable": false
+    },
+    "responseElements": null,
+    "requestID": "1786d31a-d1f5-4c4b-bf21-4ed4c8ac2236",
+    "eventID": "5a2a62db-b29c-49a1-aa6c-afc9d83e3db5",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "",
+    "eventCategory": "Management"
+}
