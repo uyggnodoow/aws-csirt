@@ -1,0 +1,52 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-06T11:50:30Z",
+    "eventSource": "route53resolver.amazonaws.com",
+    "eventName": "DisassociateFirewallRuleGroup",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "firewallRuleGroupAssociationId": "rslvr-frgassoc-40eda767ff5c4d24"
+    },
+    "responseElements": {
+        "firewallRuleGroupAssociation": {
+            "id": "rslvr-frgassoc-40eda767ff5c4d24",
+            "arn": "arn:aws:route53resolver:ap-northeast-2:999999999999:firewall-rule-group-association/rslvr-frgassoc-40eda767ff5c4d24",
+            "firewallRuleGroupId": "rslvr-frg-7fae0ccc12cc482d",
+            "vpcId": "vpc-002a319eda6435142",
+            "name": "rgassoc-vpc-002a319eda6435142-rslvr-frg-7fae0ccc12cc48",
+            "priority": 101,
+            "mutationProtection": "DISABLED",
+            "status": "DELETING",
+            "statusMessage": "Deleting the Firewall Rule Group Association",
+            "creatorRequestId": "AWSConsole.21.1704541736527",
+            "creationTime": "2024-01-06T11:48:56.665825Z",
+            "modificationTime": "2024-01-06T11:50:30.290252Z"
+        }
+    },
+    "requestID": "297fd17b-e76c-4f78-aa4c-35936789c85e",
+    "eventID": "3c9bc1f3-d5f7-483b-8a45-d2782eca9188",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

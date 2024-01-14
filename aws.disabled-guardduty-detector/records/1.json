@@ -1,0 +1,39 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAVIV7UBSQMSAXRR55V",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "ASIAVIV7UBSQP5EOEJD4",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-04T01:13:19Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-04T01:31:52Z",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "DeleteDetector",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "errorCode": "BadRequestException",
+    "requestParameters": {
+        "detectorId": "0ed797cca84f497a8d69258de3cbf2f4"
+    },
+    "responseElements": {
+        "error": "Response body is invalid."
+    },
+    "requestID": "acdd9e74-19d5-448f-8b3c-69254bd5731a",
+    "eventID": "925d9a6b-53b2-4d04-8f2b-bc1e143c7105",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management"
+}

@@ -1,0 +1,37 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-04T01:02:29Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "StopLogging",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "name": "arn:aws:cloudtrail:ap-northeast-2:999999999999:trail/aws-cloudtrail-999999999999-5f4dec40"
+    },
+    "responseElements": null,
+    "requestID": "c3cafe67-bc08-44d2-96a8-3f47c90bd0ae",
+    "eventID": "6a19924b-8923-4eba-9fe3-c19d49a74ff3",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

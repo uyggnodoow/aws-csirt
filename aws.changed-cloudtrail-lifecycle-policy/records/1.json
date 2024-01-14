@@ -1,0 +1,71 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "2024-01-05T08:51:46Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-05T08:55:03Z",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "PutBucketLifecycle",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.12.488 Linux/5.10.201-168.748.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.372-b08 java/1.8.0_372 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "requestParameters": {
+        "lifecycle": "",
+        "bucketName": "aws-cloudtrail-logs-999999999999-5f4dec40",
+        "LifecycleConfiguration": {
+            "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/",
+            "Rule": {
+                "Status": "Enabled",
+                "Filter": "",
+                "NoncurrentVersionExpiration": {
+                    "NoncurrentDays": 365
+                },
+                "Expiration": {
+                    "Days": 10
+                },
+                "ID": "test"
+            }
+        },
+        "Host": "s3.ap-northeast-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 291,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "HXSc2/KrSPgFWtqbGrRxtMIvUQszGMjxQxgR1IHOY1hW2/Iz/DV/NMqQDlETUNBk+DbwDGtT/BM=",
+        "bytesTransferredOut": 0
+    },
+    "requestID": "NTVNK5KVYCJ5WTDH",
+    "eventID": "eb8bcf83-a77a-4d1c-8e78-8ed7335e10af",
+    "readOnly": false,
+    "resources": [
+        {
+            "accountId": "362252864672",
+            "type": "AWS::S3::Bucket",
+            "ARN": "arn:aws:s3:::aws-cloudtrail-logs-999999999999-5f4dec40"
+        }
+    ],
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "vpcEndpointId": "vpce-5a0cfc33",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.ap-northeast-2.amazonaws.com"
+    }
+}

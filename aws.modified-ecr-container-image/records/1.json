@@ -1,0 +1,57 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-04T01:13:19Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-10T09:09:29Z",
+    "eventSource": "ecr.amazonaws.com",
+    "eventName": "PutImage",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "AWS Internal",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "registryId": "999999999999",
+        "repositoryName": "nginx",
+        "imageManifest": "{\n   \"schemaVersion\": 2,\n   \"mediaType\": \"application/vnd.docker.distribution.manifest.v2+json\",\n   \"config\": {\n      \"mediaType\": \"application/vnd.docker.container.image.v1+json\",\n      \"size\": 1400,\n      \"digest\": \"sha256:841b264832d22002f111a699b3bda3bccc62d6fdd64c104dccf1cf8ee97431dc\"\n   },\n   \"layers\": [\n      {\n         \"mediaType\": \"application/vnd.docker.image.rootfs.diff.tar.gzip\",\n         \"size\": 28400282,\n         \"digest\": \"sha256:7734efb8b826f955c6a3bb51d7c84cb262d0e600ea3980f5bce69fa7f4f92d24\"\n      }\n   ]\n}",
+        "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+        "imageTag": "latest"
+    },
+    "responseElements": {
+        "image": {
+            "registryId": "999999999999",
+            "repositoryName": "nginx",
+            "imageId": {
+                "imageDigest": "sha256:e04d8387c7fa698a620f139d6798f48de36e6319f41fe15e6acbaf90908c9dcb",
+                "imageTag": "latest"
+            },
+            "imageManifest": "{\n   \"schemaVersion\": 2,\n   \"mediaType\": \"application/vnd.docker.distribution.manifest.v2+json\",\n   \"config\": {\n      \"mediaType\": \"application/vnd.docker.container.image.v1+json\",\n      \"size\": 1400,\n      \"digest\": \"sha256:841b264832d22002f111a699b3bda3bccc62d6fdd64c104dccf1cf8ee97431dc\"\n   },\n   \"layers\": [\n      {\n         \"mediaType\": \"application/vnd.docker.image.rootfs.diff.tar.gzip\",\n         \"size\": 28400282,\n         \"digest\": \"sha256:7734efb8b826f955c6a3bb51d7c84cb262d0e600ea3980f5bce69fa7f4f92d24\"\n      }\n   ]\n}",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json"
+        }
+    },
+    "requestID": "fa9e8a26-b3ff-4a69-9fe0-5d97eb0d5e12",
+    "eventID": "2b65af1c-7d6d-4daf-9ad9-7a26a068e254",
+    "readOnly": false,
+    "resources": [
+        {
+            "accountId": "999999999999",
+            "ARN": "arn:aws:ecr:ap-northeast-2:999999999999:repository/nginx"
+        }
+    ],
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management"
+}

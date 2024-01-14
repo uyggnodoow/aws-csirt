@@ -1,0 +1,41 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-04T01:13:19Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-04T01:48:58Z",
+    "eventSource": "guardduty.amazonaws.com",
+    "eventName": "StopMonitoringMembers",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "detectorId": "0ed797cca84f497a8d69258de3cbf2f4",
+        "accountIds": [
+            "888888888888"
+        ]
+    },
+    "responseElements": {
+        "unprocessedAccounts": []
+    },
+    "requestID": "c6aecc0b-afbc-4e4c-a776-2b74cc639889",
+    "eventID": "a8d8e3e2-f9c2-400f-b1dd-653837ac48e3",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management"
+}

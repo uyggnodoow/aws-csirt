@@ -1,0 +1,64 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLEAOTKEG44KPW5P",
+        "userName": "alice",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "2024-01-04T01:13:19Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-05T08:28:09Z",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "PutBucketPublicAccessBlock",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "[S3Console/0.4, aws-internal/3 aws-sdk-java/1.12.488 Linux/5.10.201-168.748.amzn2int.x86_64 OpenJDK_64-Bit_Server_VM/25.372-b08 java/1.8.0_372 vendor/Oracle_Corporation cfg/retry-mode/standard]",
+    "requestParameters": {
+        "publicAccessBlock": "",
+        "bucketName": "test",
+        "PublicAccessBlockConfiguration": {
+            "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/",
+            "RestrictPublicBuckets": false,
+            "BlockPublicPolicy": false,
+            "BlockPublicAcls": false,
+            "IgnorePublicAcls": false
+        },
+        "Host": "s3.ap-northeast-2.amazonaws.com"
+    },
+    "responseElements": null,
+    "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 291,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "puNhWnkknXAV2SXx8yzF3LyTD6DGEl4YlEJubxa9cMJRWiI+iO8V4ymFTgGBRjAFYg+zKa3V/E0=",
+        "bytesTransferredOut": 0
+    },
+    "requestID": "FRJPSS1FBNQX57XC",
+    "eventID": "741db867-44ad-4b2f-ae98-14efe7b6dbae",
+    "readOnly": false,
+    "resources": [
+        {
+            "accountId": "999999999999",
+            "type": "AWS::S3::Bucket",
+            "ARN": "arn:aws:s3:::test"
+        }
+    ],
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "vpcEndpointId": "vpce-5a0cfc33",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "s3.ap-northeast-2.amazonaws.com"
+    }
+}

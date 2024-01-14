@@ -1,0 +1,35 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLEAOTKEG44KPW5P",
+        "userName": "alice",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "2024-01-04T01:13:19Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-04T01:13:30Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "DeleteTrail",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "name": "arn:aws:cloudtrail:ap-northeast-2:999999999999:trail/aws-cloudtrail-999999999999-5f4dec40"
+    },
+    "responseElements": null,
+    "requestID": "cae02d48-ea1f-4dd3-b3df-3e143304a999",
+    "eventID": "bb0796b8-0034-4015-891b-0d4a0323a0f7",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

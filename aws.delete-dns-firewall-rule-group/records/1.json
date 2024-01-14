@@ -1,0 +1,51 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-06T11:51:28Z",
+    "eventSource": "route53resolver.amazonaws.com",
+    "eventName": "DeleteFirewallRuleGroup",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "firewallRuleGroupId": "rslvr-frg-7fae0ccc12cc482d"
+    },
+    "responseElements": {
+        "firewallRuleGroup": {
+            "id": "rslvr-frg-7fae0ccc12cc482d",
+            "arn": "arn:aws:route53resolver:ap-northeast-2:999999999999:firewall-rule-group/rslvr-frg-7fae0ccc12cc482d",
+            "name": "DEFAULT",
+            "ruleCount": 0,
+            "status": "COMPLETE",
+            "statusMessage": "Created Firewall Rule Group",
+            "ownerId": "999999999999",
+            "creatorRequestId": "AWSConsole.51.1704541724951",
+            "shareStatus": "NOT_SHARED",
+            "creationTime": "2024-01-06T11:48:45.015190Z",
+            "modificationTime": "2024-01-06T11:48:45.015190Z"
+        }
+    },
+    "requestID": "567c5fd0-682a-488c-a1c1-7422497eb902",
+    "eventID": "69a21c00-101d-4dd1-9c6d-d594b493d945",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

@@ -1,0 +1,50 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-10T08:29:34Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "ModifySnapshotAttribute",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "snapshotId": "snap-065bae357ca4ec5b2",
+        "createVolumePermission": {
+            "add": {
+                "items": [
+                    {
+                        "group": "all"
+                    }
+                ]
+            }
+        },
+        "attributeType": "CREATE_VOLUME_PERMISSION"
+    },
+    "responseElements": {
+        "requestId": "3a34236b-fc1c-4fda-97cc-4e7f36972970",
+        "_return": true
+    },
+    "requestID": "3a34236b-fc1c-4fda-97cc-4e7f36972970",
+    "eventID": "c1c8167c-e311-4c9d-aa4b-519f2914d76a",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

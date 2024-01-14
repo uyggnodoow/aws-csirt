@@ -1,0 +1,41 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "2024-01-05T08:51:46Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-05T08:52:17Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "AssociateAddress",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "instanceId": "i-0ffc295220cf66b6f",
+        "allocationId": "eipalloc-015d8098246d22012",
+        "allowReassociation": false
+    },
+    "responseElements": {
+        "requestId": "f59863b1-0667-4abd-9765-04440e86a515",
+        "_return": true,
+        "associationId": "eipassoc-0b6c11891835e0ceb"
+    },
+    "requestID": "f59863b1-0667-4abd-9765-04440e86a515",
+    "eventID": "0e53c609-b3d8-4bd7-8a4e-8f259abdaf01",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

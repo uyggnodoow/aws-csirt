@@ -1,37 +1,37 @@
 {
     "eventVersion": "1.08",
     "userIdentity": {
-        "type": "Root",
-        "principalId": "",
-        "arn": "arn:aws:iam:::root",
-        "accountId": "",
-        "accessKeyId": "ASIAVIV7UBSQDJILVZXB",
-        "userName": "",
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "ASIAVIV7UBSQP5EOEJD4",
+        "userName": "alice",
         "sessionContext": {
             "sessionIssuer": {},
             "webIdFederationData": {},
             "attributes": {
-                "creationDate": "2024-01-02T04:45:14Z",
+                "creationDate": "2024-01-04T01:13:19Z",
                 "mfaAuthenticated": "false"
             }
         }
     },
-    "eventTime": "2024-01-02T06:39:29Z",
+    "eventTime": "2024-01-04T01:31:40Z",
     "eventSource": "guardduty.amazonaws.com",
-    "eventName": "UpdateDetector",
+    "eventName": "UpdateOrganizationConfiguration",
     "awsRegion": "ap-northeast-2",
-    "sourceIPAddress": "",
+    "sourceIPAddress": "192.0.2.0",
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "requestParameters": {
         "detectorId": "0ed797cca84f497a8d69258de3cbf2f4",
-        "enable": false
+        "autoEnableOrganizationMembers": "NONE"
     },
     "responseElements": null,
-    "requestID": "1786d31a-d1f5-4c4b-bf21-4ed4c8ac2236",
-    "eventID": "5a2a62db-b29c-49a1-aa6c-afc9d83e3db5",
+    "requestID": "32cfbc6d-f458-4014-9bab-4fd4cfad576b",
+    "eventID": "a5afe2d3-7271-4a5a-9cf3-c4891a52fd47",
     "readOnly": false,
     "eventType": "AwsApiCall",
     "managementEvent": true,
-    "recipientAccountId": "",
+    "recipientAccountId": "999999999999",
     "eventCategory": "Management"
 }

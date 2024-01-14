@@ -1,0 +1,46 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-06T11:34:57Z",
+    "eventSource": "wafv2.amazonaws.com",
+    "eventName": "DeleteWebACL",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "name": "DEFAULT",
+        "scope": "REGIONAL",
+        "id": "75330032-fd9c-4444-82ce-0f3dc407a50e",
+        "lockToken": "24ba393a-702e-4bf5-967d-125cea35bae0"
+    },
+    "responseElements": null,
+    "requestID": "98de9696-f8b1-4463-abc7-ea98e27dafb0",
+    "eventID": "907c4c2f-f7ff-4bf3-83f9-9a372f01e0cb",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "apiVersion": "2019-04-23",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "wafv2.ap-northeast-2.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+}

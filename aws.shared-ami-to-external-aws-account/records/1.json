@@ -1,0 +1,53 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-10T08:27:40Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "ModifyImageAttribute",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "imageId": "ami-0585b2627763c8b75",
+        "launchPermission": {
+            "add": {
+                "items": [
+                    {
+                        "userId": "888888888888"
+                    },
+                    {
+                        "organizationArn": "arn:aws:organizations::999999999999:organization/o-x40pm9cigk"
+                    }
+                ]
+            }
+        },
+        "attributeType": "launchPermission"
+    },
+    "responseElements": {
+        "requestId": "6d67575f-6486-40ce-b6fd-c88f5c8eebd0",
+        "_return": true
+    },
+    "requestID": "6d67575f-6486-40ce-b6fd-c88f5c8eebd0",
+    "eventID": "ea462638-2428-435c-af77-2442171c01e4",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

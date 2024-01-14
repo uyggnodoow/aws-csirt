@@ -1,0 +1,43 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-06T11:27:07Z",
+    "eventSource": "wafv2.amazonaws.com",
+    "eventName": "DisassociateWebACL",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "resourceArn": "arn:aws:elasticloadbalancing:ap-northeast-2:999999999999:loadbalancer/app/alb-backend/3e6cab105e6b5df5"
+    },
+    "responseElements": null,
+    "requestID": "808f21cb-78d2-406a-ba0b-b6a88d769020",
+    "eventID": "3350dd03-2abd-47a2-97d3-25b79af8dcc6",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "apiVersion": "2019-04-23",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "wafv2.ap-northeast-2.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+}

@@ -1,0 +1,99 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-06T12:11:51Z",
+    "eventSource": "rds.amazonaws.com",
+    "eventName": "ModifyDBCluster",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "dBClusterIdentifier": "db",
+        "applyImmediately": true,
+        "masterUserPassword": "HIDDEN_DUE_TO_SECURITY_REASONS",
+        "allowMajorVersionUpgrade": false,
+        "allowEngineModeChange": false
+    },
+    "responseElements": {
+        "allocatedStorage": 1,
+        "availabilityZones": [
+            "ap-northeast-2c",
+            "ap-northeast-2a",
+            "ap-northeast-2d"
+        ],
+        "backupRetentionPeriod": 1,
+        "dBClusterIdentifier": "db",
+        "dBClusterParameterGroup": "default.aurora-mysql5.7",
+        "dBSubnetGroup": "default-vpc-002a319eda6435142",
+        "status": "available",
+        "earliestRestorableTime": "Jan 6, 2024 12:04:30 PM",
+        "endpoint": "db.cluster-c3wbr0ipv26a.ap-northeast-2.rds.amazonaws.com",
+        "readerEndpoint": "db.cluster-ro-c3wbr0ipv26a.ap-northeast-2.rds.amazonaws.com",
+        "multiAZ": false,
+        "engine": "aurora-mysql",
+        "engineVersion": "5.7.mysql_aurora.2.07.9",
+        "latestRestorableTime": "Jan 6, 2024 12:11:06 PM",
+        "port": 3306,
+        "masterUsername": "admin",
+        "preferredBackupWindow": "15:19-15:49",
+        "preferredMaintenanceWindow": "thu:16:43-thu:17:13",
+        "readReplicaIdentifiers": [],
+        "dBClusterMembers": [
+            {
+                "dBInstanceIdentifier": "db-instance-1",
+                "isClusterWriter": true,
+                "dBClusterParameterGroupStatus": "in-sync",
+                "promotionTier": 1
+            }
+        ],
+        "vpcSecurityGroups": [
+            {
+                "vpcSecurityGroupId": "sg-0a5cbbaf9f6f6b4bc",
+                "status": "active"
+            }
+        ],
+        "hostedZoneId": "ZLA2NUCOLGUUR",
+        "storageEncrypted": true,
+        "kmsKeyId": "arn:aws:kms:ap-northeast-2:999999999999:key/653af45a-096c-4237-8b83-514dd0e37af2",
+        "dbClusterResourceId": "cluster-MMXETGH5AV3A2FYKVK7WUYOBRI",
+        "dBClusterArn": "arn:aws:rds:ap-northeast-2:999999999999:cluster:db",
+        "associatedRoles": [],
+        "iAMDatabaseAuthenticationEnabled": false,
+        "clusterCreateTime": "Jan 6, 2024 12:03:30 PM",
+        "pendingModifiedValues": {
+            "masterUserPassword": "HIDDEN_DUE_TO_SECURITY_REASONS"
+        },
+        "engineMode": "provisioned",
+        "autoMinorVersionUpgrade": true,
+        "deletionProtection": true,
+        "httpEndpointEnabled": false,
+        "copyTagsToSnapshot": true,
+        "crossAccountClone": false,
+        "domainMemberships": [],
+        "tagList": [],
+        "networkType": "IPV4"
+    },
+    "requestID": "ed35df94-2260-4f73-b10c-e9ab5e4ddf7f",
+    "eventID": "e27d7cf5-87b4-49cf-8656-935a92663838",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

@@ -1,0 +1,51 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "2024-01-05T08:51:46Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-05T09:24:08Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "DeleteFlowLogs",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "DeleteFlowLogsRequest": {
+            "FlowLogId": {
+                "tag": 1,
+                "content": "fl-0196995ad2485fa97"
+            }
+        }
+    },
+    "responseElements": {
+        "DeleteFlowLogsResponse": {
+            "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+            "requestId": "2c198064-22f2-42b2-a6a3-1973d18d784a",
+            "unsuccessful": ""
+        }
+    },
+    "requestID": "2c198064-22f2-42b2-a6a3-1973d18d784a",
+    "eventID": "dc95ce1d-4c9f-419c-88c5-f3bb7e79f3fa",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.2",
+        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+}

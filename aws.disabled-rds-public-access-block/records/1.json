@@ -1,0 +1,134 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-06T12:03:32Z",
+    "eventSource": "rds.amazonaws.com",
+    "eventName": "CreateDBInstance",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "dBInstanceIdentifier": "db-instance-1",
+        "dBInstanceClass": "db.t2.small",
+        "engine": "aurora-mysql",
+        "availabilityZone": "ap-northeast-2a",
+        "dBSubnetGroupName": "default-vpc-002a319eda6435142",
+        "dBParameterGroupName": "default.aurora-mysql5.7",
+        "engineVersion": "5.7.mysql_aurora.2.07.9",
+        "autoMinorVersionUpgrade": true,
+        "publiclyAccessible": true,
+        "dBClusterIdentifier": "db",
+        "storageEncrypted": true
+    },
+    "responseElements": {
+        "dBInstanceIdentifier": "db-instance-1",
+        "dBInstanceClass": "db.t2.small",
+        "engine": "aurora-mysql",
+        "dBInstanceStatus": "creating",
+        "masterUsername": "admin",
+        "allocatedStorage": 1,
+        "preferredBackupWindow": "15:19-15:49",
+        "backupRetentionPeriod": 1,
+        "dBSecurityGroups": [],
+        "vpcSecurityGroups": [
+            {
+                "vpcSecurityGroupId": "sg-0a5cbbaf9f6f6b4bc",
+                "status": "active"
+            }
+        ],
+        "dBParameterGroups": [
+            {
+                "dBParameterGroupName": "default.aurora-mysql5.7",
+                "parameterApplyStatus": "in-sync"
+            }
+        ],
+        "availabilityZone": "ap-northeast-2a",
+        "dBSubnetGroup": {
+            "dBSubnetGroupName": "default-vpc-002a319eda6435142",
+            "dBSubnetGroupDescription": "Created from the RDS Management Console",
+            "vpcId": "vpc-002a319eda6435142",
+            "subnetGroupStatus": "Complete",
+            "subnets": [
+                {
+                    "subnetIdentifier": "subnet-0d077614be7df8d66",
+                    "subnetAvailabilityZone": {
+                        "name": "ap-northeast-2c"
+                    },
+                    "subnetOutpost": {},
+                    "subnetStatus": "Active"
+                },
+                {
+                    "subnetIdentifier": "subnet-0e7de729f79f09621",
+                    "subnetAvailabilityZone": {
+                        "name": "ap-northeast-2a"
+                    },
+                    "subnetOutpost": {},
+                    "subnetStatus": "Active"
+                }
+            ]
+        },
+        "preferredMaintenanceWindow": "wed:17:48-wed:18:18",
+        "pendingModifiedValues": {},
+        "multiAZ": false,
+        "engineVersion": "5.7.mysql_aurora.2.07.9",
+        "autoMinorVersionUpgrade": true,
+        "readReplicaDBInstanceIdentifiers": [],
+        "licenseModel": "general-public-license",
+        "storageThroughput": 0,
+        "optionGroupMemberships": [
+            {
+                "optionGroupName": "default:aurora-mysql-5-7",
+                "status": "in-sync"
+            }
+        ],
+        "publiclyAccessible": true,
+        "storageType": "aurora",
+        "dbInstancePort": 0,
+        "dBClusterIdentifier": "db",
+        "storageEncrypted": true,
+        "kmsKeyId": "arn:aws:kms:ap-northeast-2:999999999999:key/653af45a-096c-4237-8b83-514dd0e37af2",
+        "dbiResourceId": "db-7UNVCPSQJRMNYK5OAXF6U5TATA",
+        "cACertificateIdentifier": "rds-ca-2019",
+        "domainMemberships": [],
+        "copyTagsToSnapshot": false,
+        "monitoringInterval": 0,
+        "promotionTier": 1,
+        "dBInstanceArn": "arn:aws:rds:ap-northeast-2:999999999999:db:db-instance-1",
+        "iAMDatabaseAuthenticationEnabled": false,
+        "performanceInsightsEnabled": false,
+        "deletionProtection": false,
+        "associatedRoles": [],
+        "httpEndpointEnabled": false,
+        "tagList": [],
+        "customerOwnedIpEnabled": false,
+        "networkType": "IPV4",
+        "backupTarget": "region",
+        "certificateDetails": {
+            "cAIdentifier": "rds-ca-2019"
+        },
+        "dedicatedLogVolume": false
+    },
+    "requestID": "d5e2790c-0b74-4c8f-8678-93a0563893bf",
+    "eventID": "e1908f35-d81e-4319-a7e3-77309679c497",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}
