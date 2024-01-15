@@ -1,0 +1,55 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-15T10:44:55Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "ModifySecurityGroupRules",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "ModifySecurityGroupRulesRequest": {
+            "SecurityGroupRule": {
+                "SecurityGroupRuleId": "sgr-00dd28519e55e4d7d",
+                "tag": 1,
+                "SecurityGroupRule": {
+                    "CidrIpv4": "0.0.0.0/0",
+                    "FromPort": 3389,
+                    "ToPort": 3389,
+                    "IpProtocol": "tcp"
+                }
+            },
+            "GroupId": "sg-0ebe4e44b0b321d54"
+        }
+    },
+    "responseElements": {
+        "ModifySecurityGroupRulesResponse": {
+            "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+            "requestId": "4bb0716f-7ffe-41b3-b827-91f4c2012898",
+            "return": true
+        }
+    },
+    "requestID": "4bb0716f-7ffe-41b3-b827-91f4c2012898",
+    "eventID": "8f5f4b4a-7fec-4789-8bc4-e41d7330956e",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

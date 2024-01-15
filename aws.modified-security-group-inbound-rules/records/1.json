@@ -1,0 +1,146 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-15T10:19:47Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "AuthorizeSecurityGroupIngress",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "groupId": "sg-0ebe4e44b0b321d54",
+        "ipPermissions": {
+            "items": [
+                {
+                    "ipProtocol": "tcp",
+                    "fromPort": 22,
+                    "toPort": 22,
+                    "groups": {},
+                    "ipRanges": {
+                        "items": [
+                            {
+                                "cidrIp": "0.0.0.0/0"
+                            }
+                        ]
+                    },
+                    "ipv6Ranges": {},
+                    "prefixListIds": {}
+                },
+                {
+                    "ipProtocol": "-1",
+                    "groups": {},
+                    "ipRanges": {
+                        "items": [
+                            {
+                                "cidrIp": "0.0.0.0/0"
+                            }
+                        ]
+                    },
+                    "ipv6Ranges": {},
+                    "prefixListIds": {}
+                },
+                {
+                    "ipProtocol": "tcp",
+                    "fromPort": 389,
+                    "toPort": 389,
+                    "groups": {},
+                    "ipRanges": {
+                        "items": [
+                            {
+                                "cidrIp": "0.0.0.0/0"
+                            }
+                        ]
+                    },
+                    "ipv6Ranges": {},
+                    "prefixListIds": {}
+                },
+                {
+                    "ipProtocol": "tcp",
+                    "fromPort": 3389,
+                    "toPort": 3389,
+                    "groups": {},
+                    "ipRanges": {
+                        "items": [
+                            {
+                                "cidrIp": "0.0.0.0/0"
+                            }
+                        ]
+                    },
+                    "ipv6Ranges": {},
+                    "prefixListIds": {}
+                }
+            ]
+        }
+    },
+    "responseElements": {
+        "requestId": "7ffe2896-ba63-4488-ae17-92509109e37f",
+        "_return": true,
+        "securityGroupRuleSet": {
+            "items": [
+                {
+                    "groupOwnerId": "999999999999",
+                    "groupId": "sg-0ebe4e44b0b321d54",
+                    "securityGroupRuleId": "sgr-00dd28519e55e4d7d",
+                    "isEgress": false,
+                    "ipProtocol": "tcp",
+                    "fromPort": 22,
+                    "toPort": 22,
+                    "cidrIpv4": "0.0.0.0/0"
+                },
+                {
+                    "groupOwnerId": "999999999999",
+                    "groupId": "sg-0ebe4e44b0b321d54",
+                    "securityGroupRuleId": "sgr-020236049fdd589ae",
+                    "isEgress": false,
+                    "ipProtocol": "-1",
+                    "fromPort": -1,
+                    "toPort": -1,
+                    "cidrIpv4": "0.0.0.0/0"
+                },
+                {
+                    "groupOwnerId": "999999999999",
+                    "groupId": "sg-0ebe4e44b0b321d54",
+                    "securityGroupRuleId": "sgr-050a2b061489e8bdf",
+                    "isEgress": false,
+                    "ipProtocol": "tcp",
+                    "fromPort": 389,
+                    "toPort": 389,
+                    "cidrIpv4": "0.0.0.0/0"
+                },
+                {
+                    "groupOwnerId": "999999999999",
+                    "groupId": "sg-0ebe4e44b0b321d54",
+                    "securityGroupRuleId": "sgr-0ab7ff1b0dde39e24",
+                    "isEgress": false,
+                    "ipProtocol": "tcp",
+                    "fromPort": 3389,
+                    "toPort": 3389,
+                    "cidrIpv4": "0.0.0.0/0"
+                }
+            ]
+        }
+    },
+    "requestID": "7ffe2896-ba63-4488-ae17-92509109e37f",
+    "eventID": "65aa5802-cb6e-4002-a8d9-8ffd945cc7b8",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}
