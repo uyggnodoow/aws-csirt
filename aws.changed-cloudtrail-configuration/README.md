@@ -1,5 +1,7 @@
 ## Rules
 
+This rule detects Amazon CloudTrail configuration changes.
+
 ```text
 _sourceCategory=aws/cloudtrail
 | where isNull(errorCode) and eventName = "PutInsightSelectors"
