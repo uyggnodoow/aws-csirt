@@ -1,0 +1,39 @@
+{
+    "eventVersion": "1.10",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLEAOTKEG44KPW5P",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLEAOTKEG44KPW5P",
+        "userName": "alice",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "2024-01-27T04:33:27Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-27T04:34:22Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "PutInsightSelectors",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "trailName": "arn:aws:cloudtrail:ap-northeast-2:999999999999:trail/test",
+        "insightSelectors": []
+    },
+    "responseElements": {
+        "trailARN": "arn:aws:cloudtrail:ap-northeast-2:999999999999:trail/test",
+        "insightSelectors": []
+    },
+    "requestID": "640f5c75-fed9-4fb5-a7fb-6101a60a203d",
+    "eventID": "d2c7faa9-c3ca-4c4c-9abf-024bd0763456",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}

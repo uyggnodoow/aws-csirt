@@ -1,0 +1,67 @@
+{
+    "eventVersion": "1.10",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLEAOTKEG44KPW5P",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLEAOTKEG44KPW5P",
+        "userName": "alice",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "2024-01-27T04:33:27Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-27T04:51:24Z",
+    "eventSource": "cloudtrail.amazonaws.com",
+    "eventName": "PutEventSelectors",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "trailName": "arn:aws:cloudtrail:ap-northeast-2:999999999999:trail/test",
+        "eventSelectors": [
+            {
+                "readWriteType": "All",
+                "includeManagementEvents": false,
+                "dataResources": [
+                    {
+                        "type": "AWS::S3::Object",
+                        "values": [
+                            "arn:aws:s3"
+                        ]
+                    }
+                ],
+                "excludeManagementEventSources": []
+            }
+        ]
+    },
+    "responseElements": {
+        "trailARN": "arn:aws:cloudtrail:ap-northeast-2:999999999999:trail/test",
+        "eventSelectors": [
+            {
+                "readWriteType": "All",
+                "includeManagementEvents": false,
+                "dataResources": [
+                    {
+                        "type": "AWS::S3::Object",
+                        "values": [
+                            "arn:aws:s3"
+                        ]
+                    }
+                ],
+                "excludeManagementEventSources": []
+            }
+        ]
+    },
+    "requestID": "d88cae1e-178e-41e7-b4d4-927c97c94171",
+    "eventID": "892ce9ce-4925-46fd-9298-dd74516ff810",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}
