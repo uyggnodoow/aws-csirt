@@ -1,0 +1,63 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-03-08T14:04:20Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-03-08T14:18:31Z",
+    "eventSource": "eks.amazonaws.com",
+    "eventName": "UpdateClusterConfig",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "115.142.120.217",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "resourcesVpcConfig": {
+            "endpointPrivateAccess": true,
+            "endpointPublicAccess": false
+        },
+        "clientRequestToken": "825cc71b-2683-41ec-b687-7d0f41b0c34f",
+        "name": "amazon-eks"
+    },
+    "responseElements": {
+        "update": {
+            "id": "a6a26d0a-c985-40df-8d17-9d994525339f",
+            "status": "InProgress",
+            "type": "EndpointAccessUpdate",
+            "params": [
+                {
+                    "type": "EndpointPublicAccess",
+                    "value": "false"
+                },
+                {
+                    "type": "EndpointPrivateAccess",
+                    "value": "true"
+                },
+                {
+                    "type": "PublicAccessCidrs",
+                    "value": "[\"0.0.0.0/0\"]"
+                }
+            ],
+            "createdAt": 1709907511.428,
+            "errors": []
+        }
+    },
+    "requestID": "0e1036a7-67ba-4329-a22c-598914600db4",
+    "eventID": "194fa348-c30a-4cff-87a9-fd21a6178bc7",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management"
+}

@@ -1,0 +1,132 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-03-08T14:04:20Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-03-08T14:09:42Z",
+    "eventSource": "eks.amazonaws.com",
+    "eventName": "CreateCluster",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "115.142.120.217",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "requestParameters": {
+        "resourcesVpcConfig": {
+            "subnetIds": [
+                "subnet-00000000000000000",
+                "subnet-00000000000000000",
+                "subnet-00000000000000000",
+                "subnet-00000000000000000"
+            ],
+            "securityGroupIds": [
+                "sg-00000000000000000"
+            ],
+            "endpointPublicAccess": true,
+            "endpointPrivateAccess": false,
+            "publicAccessCidrs": [
+                "0.0.0.0/0"
+            ]
+        },
+        "clientRequestToken": "a2a94de9-7f57-4d4c-a882-e0eca27110cc",
+        "roleArn": "arn:aws:iam::999999999999:role/eksClusterRole",
+        "name": "amazon-eks",
+        "logging": {
+            "clusterLogging": [
+                {
+                    "enabled": true,
+                    "types": []
+                },
+                {
+                    "enabled": false,
+                    "types": [
+                        "api",
+                        "audit",
+                        "authenticator",
+                        "controllerManager",
+                        "scheduler"
+                    ]
+                }
+            ]
+        },
+        "accessConfig": {
+            "bootstrapClusterCreatorAdminPermissions": true,
+            "authenticationMode": "API_AND_CONFIG_MAP"
+        },
+        "version": "1.29",
+        "kubernetesNetworkConfig": {
+            "ipFamily": "ipv4"
+        },
+        "tags": {}
+    },
+    "responseElements": {
+        "cluster": {
+            "name": "donggyu-eks",
+            "arn": "arn:aws:eks:ap-northeast-2:999999999999:cluster/amazon-eks",
+            "createdAt": 1709906982.067,
+            "version": "1.29",
+            "roleArn": "arn:aws:iam::999999999999:role/eksClusterRole",
+            "resourcesVpcConfig": {
+                "subnetIds": [
+                    "subnet-00000000000000000",
+                    "subnet-00000000000000000",
+                    "subnet-00000000000000000",
+                    "subnet-00000000000000000"
+                ],
+                "securityGroupIds": [
+                    "sg-00000000000000000"
+                ],
+                "vpcId": "vpc-00000000000000000",
+                "endpointPublicAccess": true,
+                "endpointPrivateAccess": false,
+                "publicAccessCidrs": [
+                    "0.0.0.0/0"
+                ]
+            },
+            "kubernetesNetworkConfig": {
+                "serviceIpv4Cidr": "172.20.0.0/16",
+                "ipFamily": "ipv4"
+            },
+            "logging": {
+                "clusterLogging": [
+                    {
+                        "types": [
+                            "api",
+                            "audit",
+                            "authenticator",
+                            "controllerManager",
+                            "scheduler"
+                        ],
+                        "enabled": false
+                    }
+                ]
+            },
+            "status": "CREATING",
+            "certificateAuthority": {},
+            "platformVersion": "eks.3",
+            "tags": {},
+            "accessConfig": {
+                "bootstrapClusterCreatorAdminPermissions": true,
+                "authenticationMode": "API_AND_CONFIG_MAP"
+            }
+        }
+    },
+    "requestID": "4e3ddd64-6a1f-42b6-af9a-7111835777c3",
+    "eventID": "11c209ea-98e1-4db6-99e3-76d0b7e005f7",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management"
+}
