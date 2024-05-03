@@ -1,0 +1,54 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "EXAMPLE6E4XEGITWATV6R",
+        "arn": "arn:aws:iam::999999999999:user/alice",
+        "accountId": "999999999999",
+        "accessKeyId": "EXAMPLE6E4XEGITWATV6R",
+        "userName": "alice",
+        "sessionContext": {
+            "sessionIssuer": {},
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2024-01-06T11:21:57Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2024-01-06T12:18:33Z",
+    "eventSource": "rds.amazonaws.com",
+    "eventName": "ModifyDBClusterSnapshotAttribute",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "valuesToRemove": [
+            "all"
+        ],
+        "valuesToAdd": [
+            "888888888888"
+        ],
+        "attributeName": "restore",
+        "dBClusterSnapshotIdentifier": "snapshot"
+    },
+    "responseElements": {
+        "dBClusterSnapshotAttributes": [
+            {
+                "attributeName": "restore",
+                "attributeValues": [
+                    "all"
+                ]
+            }
+        ],
+        "dBClusterSnapshotIdentifier": "snapshot"
+    },
+    "requestID": "c35d8e46-b497-470b-8035-91a352cb26f9",
+    "eventID": "91b2a78f-542e-4f0f-9e8c-798b7f7912ae",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "999999999999",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}
